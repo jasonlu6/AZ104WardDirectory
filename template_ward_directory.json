@@ -20,7 +20,7 @@
             "type": "secureString",
             "minLength": 12,
             "metadata": {
-                "description": "Helman12"
+                "description": "Helaman12"
             }
         },
         "adminUsername2": {
