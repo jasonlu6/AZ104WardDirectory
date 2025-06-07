@@ -1,0 +1,25 @@
+{
+    "$schema": "https://schemas.microsoft.com/schema/#schemas/parameter/json",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "type": "string",
+            "value": "vm-ward1"
+        },
+        "vmName2": {
+            "type": "string",
+            "value": "vm-ward2"
+        },
+        "adminUsername": {
+            "type": "string",
+            "value": "administrator"
+        },
+        "adminPassword": {
+            "type": "securestring",
+            "value": "2Nephi31Awesome"
+        },
+        "location": {
+            "value": "eastus"
+        }
+    }
+}
