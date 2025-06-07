@@ -1,0 +1,38 @@
+Project Deliverables: 
+
+1) Create and remove users from Microsoft Entra ID accounts 
+
+2) Azure elements to implement (bare minimum for prototype): 
+Users: Bishop, Stake President, EQP, RSP, and regular members 
+
+3) Resource groups:
+cp-ysa1 (first resource group for the admin)
+cp-ysa2 (second resource group for the members) 
+
+4) ARM templates:
+Parameter file for Member IDs (random generated according to LDS tools format) 
+Template JSON file for resource creation and configuration 
+
+5) VMs:
+vm-ward1: VM for resource management for the bishopric 
+vm-ward2: VM for resource management for regular members 
+
+6) NSG: Network security groups:
+ward-nsg: Network security group added for Ward services 
+bishoporic-nsg: Network security group for bishopric members 
+
+7) Virtual network: 
+ward-vnet: Singular Virtual Network running on port 80 with RDP allowed and other protocols (TCP/DNS/web) denied 
+PowerShell commands to invoke the web request and start an executable process ward-app.exe file
+
+8) Web Apps:
+At least one of Azure Service Container or Azure Kubernetes Service (ACS or AKS) 
+Optional: Bicep templates for ARM conversion (usually used when Bicep use case is needed) 
+Optional II: Azure functions with a Python function to simply check for duplicates in Ward member IDs 
+
+9) Add in storage volumes for the Temple Recommends and Ward callings 
+Use Azure Virtual Network, subnet, and RBAC to build a virtual machine Infrastructure-as-a-Service (IaaS) solution 
+Monitor and implement alerts with Azure Monitor 
+Govern the policy of each resource with ARM Templates / Bicep file 
+
+10) Finally, demo the end solution. 
