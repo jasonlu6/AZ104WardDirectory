@@ -303,6 +303,19 @@
                             "sourceAddressPrefix": "*",
                             "destinationAddressPrefix": "*"
                         }
+                    },
+                    {
+                        "name": "default-deny-8080",
+                        "properties": {
+                            "priority": 100,
+                            "access": "Deny",
+                            "direction": "Outbound",
+                            "destinationPortRange": "8080",
+                            "protocol": "*",
+                            "sourcePortRange": "*",
+                            "sourceAddressPrefix": "*",
+                            "destinationAddressPrefix": "*"
+                        }
                     }
                 ]
             }
@@ -391,6 +404,11 @@
                         {
                             "diskSizeGB": 1023,
                             "lun": 0,
+                            "createOption": "Empty"
+                        },
+                        {
+                            "diskSizeGB": 2048,
+                            "lun": 1,
                             "createOption": "Empty"
                         }
                     ]
