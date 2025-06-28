@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "Name": "Stake President",
+        "_rid": "DSk3AIGmr30BAAAAAAAAAA==",
+        "_self": "dbs/DSk3AA==/colls/DSk3AIGmr30=/docs/DSk3AIGmr30BAAAAAAAAAA==/",
+        "_etag": "\"a400b8bc-0000-0100-0000-685e0bba0000\"",
+        "_attachments": "attachments/",
+        "_ts": 1750993850,
+        "publicIpAddress": "10.0.0.0/16"
+    },
+    {
+        "id": "2",
+        "Name": "Bishopric",
+        "_rid": "DSk3AIGmr30CAAAAAAAAAA==",
+        "_self": "dbs/DSk3AA==/colls/DSk3AIGmr30=/docs/DSk3AIGmr30CAAAAAAAAAA==/",
+        "_etag": "\"a400e1bd-0000-0100-0000-685e0bd80000\"",
+        "_attachments": "attachments/",
+        "_ts": 1750993880,
+        "publicIpAddress": "10.1.0.0/24"
+    },
+    {
+        "id": "3",
+        "Name": "EQ President",
+        "_rid": "DSk3AIGmr30CAAAAAAAAAA==",
+        "_self": "dbs/DSk3AA==/colls/DSk3AIGmr30=/docs/DSk3AIGmr30CAAAAAAAAAA==/",
+        "_etag": "\"a400e1bd-0000-0100-0000-685e0bd80000\"",
+        "_attachments": "attachments/",
+        "_ts": 1750993940,
+        "publicIpAddress": "10.0.1.0/16"
+    },
+    {
+        "id": "4",
+        "Name": "RS President",
+        "_rid": "DSk3AIGmr30CAAAAAAAAAA==",
+        "_self": "dbs/DSk3AA==/colls/DSk3AIGmr30=/docs/DSk3AIGmr30CAAAAAAAAAA==/",
+        "_etag": "\"a400e1bd-0000-0100-0000-685e0bd80000\"",
+        "_attachments": "attachments/",
+        "_ts": 1750993970,
+        "publicIpAddress": "10.0.0.1/16"
+    },
+    {
+        "id": "5",
+        "Name": "Ward Member",
+        "_rid": "DSk3AIGmr30CAAAAAAAAAA==",
+        "_self": "dbs/DSk3AA==/colls/DSk3AIGmr30=/docs/DSk3AIGmr30CAAAAAAAAAA==/",
+        "_etag": "\"a400e1bd-0000-0100-0000-685e0bd80000\"",
+        "_attachments": "attachments/",
+        "_ts": 1750994410,
+        "publicIpAddress": "10.1.0.0/24"
+    }
+]
