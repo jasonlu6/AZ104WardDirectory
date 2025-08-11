@@ -1,0 +1,7 @@
+www.contoso.com.                3600    IN    A     10.10.1.5
+www.contoso.com.                3600    IN    A     10.10.1.10
+www.contoso_wd_104.com          3600    IN    AAAA  127.0.0.1
+www.contoso_wd_104_eq.com       3600    IN    AAAA  127.0.1.1
+www.contoso_wd_104_sp.com       3600    IN    CNAME 127.2.0.0
+www.contoso_wd_104_rs.com       3600    IN    AAAA  127.1.0.1
+www.contoso_wd_104_member.com   3600    IN    AAAA  127.1.1.1
